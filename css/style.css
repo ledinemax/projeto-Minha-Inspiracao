@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+    background-color: #F9F7F7;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #FFE2E2;
+    border-bottom: 2px solid #FFE2E2;
+    padding-bottom: 70px;
+}
+
+header {
+    margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+.title h1 {
+    color: #52734D;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #EEEEEE;
+    border-radius: 6px;
+
+}
+
+.text-header {
+    width: 700px;
+    padding-left: 35px;
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    color: #8785A2;
+}
+
+.all-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.collum {
+    width: 350px;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.collum h2 {
+    font-size: 17px;
+    background-color: #F9F5EB;
+    border-radius: 6px;
+    color: #52734D;
+}
+
+.photos {
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.photos img {
+    border-radius: 6px;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.text p {
+    border-radius: 6px;
+    text-align:center;
+    background-color: #EEEEEE;
+    color: #52734D;
+}
+
+.text p:hover {
+    background-color: #52734D;
+    color: #EEEEEE;
+    transition: all ease 0.5s;
+}
+
+.link {
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: 10px 10px 10px;
+    
+}
+
+a:link {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #EEEEEE;
+    font-family: roboto;
+    color: #52734D;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+a:hover {
+    color: #EEEEEE;
+    background: #52734D;
+    transition: all ease 0.5s;
+    text-decoration: underline;
+    border: 2px solid;
+    
+}
