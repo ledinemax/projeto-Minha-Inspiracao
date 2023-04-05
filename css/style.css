@@ -32,7 +32,7 @@ header {
     color: #52734D;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #EEEEEE;
+    background-color: #DDDDDD;
     border-radius: 6px;
 
 }
@@ -42,7 +42,7 @@ header {
     padding-left: 35px;
     border-radius: 6px;
     background-color: #EEEEEE;
-    color: #8785A2;
+    color: #7d7d7d;
 }
 
 .all-content {
@@ -50,24 +50,32 @@ header {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 
 .collum {
+
     width: 350px;
     margin: 20px 20px;
     text-align: center;
-    border-radius: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 0px;
+    border-radius: 5px;
 }
 
 .collum h2 {
     font-size: 17px;
-    background-color: #F9F5EB;
+    background-color: #DDDDDD;
     border-radius: 6px;
     color: #52734D;
+    
 }
 
+
 .photos {
+    background-size: contain;
     border-radius: 30px;
     width: 100%;
     height: auto;
@@ -105,7 +113,7 @@ header {
 a:link {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #EEEEEE;
+    background-color: #DDDDDD;
     font-family: roboto;
     color: #52734D;
     font-weight: bold;
@@ -119,4 +127,9 @@ a:hover {
     text-decoration: underline;
     border: 2px solid;
     
+}
+
+.footer spotify {
+    color: #e6e5e5;
+    padding-bottom: 100px;
 }
